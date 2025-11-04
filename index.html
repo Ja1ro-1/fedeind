@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coolblue homepagina – FED2526</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css">
+	
+
+
+</head>
+
+<body class="homepagina">
+
+	<header>
+		<nav>
+		  <!-- Menu open knop -->
+		  <button type="button" class="menu-open">☰</button>
+		  <!-- Menu-paneel -->
+		  <div class="menu-panel">
+			<section class="menu-header">
+				<h2>Menu</h2>
+				<button type="button" class="menu-close">✕</button>
+			  </section>
+			  
+			<!-- niveau 1 van het hamburgermenu -->
+			<ul class="menu-level level-1 actief">
+				<li>
+				  <a href="#" data-target="level-2-computers">
+					<img src="images/computersentablets.png" alt="computers en tablets">
+					<span>Computers & tablets</span>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem"
+					  height="1.6rem" aria-hidden="true">
+					  <path fill-rule="evenodd"
+						d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445">
+					  </path>
+					</svg>
+				  </a>
+				</li>
+				<li><a href="#"><img src="images/telefonie.png" alt="">Telefonie<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+				<li><a href="#"><img src="images/beeldengeluid.png" alt="">Beeld & geluid<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+				<li><a href="#"><img src="images/huishouden&wonen.png" alt="">Zakelijk & thuiswerken<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+				<li><a href="#"><img src="images/huishouden.keuken.png" alt="">Keuken<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+				<li><a href="#"><img src="images/verzorrging.png" alt="">Sport & verzorging<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+				<li><a href="#"><img src="images/camera.png" alt="">Foto & video<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+				<li><a href="#"><img src="images/coolbluekorting.png" alt="">Coolblue Energie<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+				<li><a href="#"><img src="images/actie-merken.png" alt="">Acties & merken<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+				<li>
+					<a href="#">
+					  Taal: Nederlands (NL)
+					  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem"
+						height="1.6rem" aria-hidden="true">
+						<path fill-rule="evenodd"
+						  d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path>
+					  </svg>
+					</a>
+				  </li>
+				  <li><a href="#">Mijn Coolblue</a></li>
+				  <li><a href="#">Klantenservice</a></li>
+				  <li><a href="#">Zakelijk</a></li>
+			  </ul>
+  
+
+			<!-- niveau 2 van het hamburger menu -->
+			<ul class="menu-level level-2 level-2-computers">
+				<li>
+					<button class="menu-back">
+					  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="0.8em" aria-hidden="true" style="transform: rotate(180deg);">
+						<path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path>
+					  </svg>
+					  Alle categorieën
+					</button>
+				  </li>
+				  
+			  <li><a href="#">Laptops, desktops & monitoren<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+			  <li><a href="#" data-target="level-3-gaming">PC Gaming Setup <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+			  <li><a href="#">Tablets & e-readers<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+			  <li><a href="#">Netwerk & internet<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+			  <li><a href="#">Computeronderdelen<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a>
+			  <li><a href="#">Geheugen & opslag<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a>
+			  <li><a href="#">Printers & randapparatuur<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+			  <li>
+				<a href="#">
+				  Taal: Nederlands (NL)
+				  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem"
+					height="1.6rem" aria-hidden="true">
+					<path fill-rule="evenodd"
+					  d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path>
+				  </svg>
+				</a>
+			  </li>
+			  <li><a href="#">Mijn Coolblue</a></li>
+			  <li><a href="#">Klantenservice</a></li>
+			  <li><a href="#">Zakelijk</a></li>
+		  </ul>
+
+		  
+			<!-- niveau 3 van het hamburger menu -->
+			<ul class="menu-level level-3 level-3-gaming">
+				<li>
+					<button class="menu-back">
+					  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="0.8em" aria-hidden="true" style="transform: rotate(180deg);">
+						<path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path>
+					  </svg>
+					  Computers en Tablets
+					</button>
+				  </li>
+				  
+			  <li><a href="#">Gaming laptops<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+			  <li><a href="#">Gaming desktops<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+			  <li><a href="#">Gaming monitoren<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+			  <li><a href="#">Gaming accessoires<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem" height="1.6rem" aria-hidden="true"><path fill-rule="evenodd" d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path></svg></a></li>
+			  <li>
+				<a href="#">
+				  Taal: Nederlands (NL)
+				  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="grey" width="1.0rem"
+					height="1.6rem" aria-hidden="true">
+					<path fill-rule="evenodd"
+					  d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445"></path>
+				  </svg>
+				</a>
+			  </li>
+			  <li><a href="#">Mijn Coolblue</a></li>
+			  <li><a href="#">Klantenservice</a></li>
+			  <li><a href="#">Zakelijk</a></li>
+		  </ul>
+		  </div>
+		  
+		
+		  <!-- Logo -->
+		  <a href="/" class="logo">
+			<h1 class="visually-hidden">Coolblue</h1>
+			<img src="images/cool.png" alt="Coolblue">
+		  </a>
+	  
+		  <!-- Iconen rechts -->
+		  <ul>
+			<li>
+			  <a href="/account">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" fill="white" width="2.4rem"
+				  height="2.4rem" aria-hidden="true">
+				  <path fill-rule="evenodd"
+					d="M15 6.25a5 5 0 1 1-10 0 5 5 0 0 1 10 0m-2.5 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0">
+				  </path>
+				  <path
+					d="M6.25 12.5a5 5 0 0 0-5 5 1.25 1.25 0 1 0 2.5 0 2.5 2.5 0 0 1 2.5-2.5h7.5a2.5 2.5 0 0 1 2.5 2.5 1.25 1.25 0 1 0 2.5 0 5 5 0 0 0-5-5z">
+				  </path>
+				</svg>
+			  </a>
+			</li>
+			<li>
+			  <a href="/favorieten">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" fill="white" width="2.4rem"
+				  height="2.4rem" aria-hidden="true">
+				  <path fill-rule="evenodd"
+					d="M6.273 3.875c-1.685 0-2.523 1.36-2.523 2.649 0 1.27.628 2.676 1.948 4.784.712 1.134 2.368 3.07 3.668 4.527a.84.84 0 0 0 1.269 0c1.3-1.454 2.956-3.39 3.667-4.527 1.32-2.108 1.948-3.514 1.948-4.784 0-1.292-.837-2.649-2.523-2.649-1.003 0-1.893.66-2.279 1.644a1.537 1.537 0 0 1-2.896 0c-.386-.985-1.274-1.644-2.28-1.644Zm6.237 13.697-.049.058a3.26 3.26 0 0 1-4.919 0m4.968-.058c1.266-1.417 3.041-3.48 3.881-4.822 1.312-2.096 2.359-4.093 2.359-6.226 0-2.36-1.62-5.274-5.023-5.274-1.492 0-2.82.703-3.726 1.8-.908-1.1-2.236-1.8-3.728-1.8-3.404 0-5.023 2.917-5.023 5.274 0 2.133 1.047 4.13 2.359 6.226v.001c.852 1.356 2.665 3.459 3.933 4.88">
+				  </path>
+				</svg>
+			  </a>
+			</li>
+			<li>
+			  <a href="/winkelmandje" class="winkelmand-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" fill="white" width="2.4rem"
+				  height="2.4rem" aria-hidden="true">
+				  <path fill-rule="evenodd"
+					d="M2.5 1.25a1.25 1.25 0 1 0 0 2.5h1.982l1.366 8.939a1.25 1.25 0 0 0 1.235 1.061h9.226a1.25 1.25 0 0 0 1.205-.914l2.44-8.75a1.25 1.25 0 1 0-2.408-.672l-2.185 7.836H8.157L6.79 2.311A1.25 1.25 0 0 0 5.556 1.25zM10 16.875a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0m7.5 0a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0">
+				  </path>
+				</svg>
+			  </a>
+			</li>
+		  </ul>
+		</nav>
+	  
+		<!-- Zoeken -->
+		<section>
+		  <h2 class="visually-hidden">Zoeken</h2>
+		  <form action="/zoeken" method="get" role="search">
+			<label for="q" class="visually-hidden">Zoekterm</label>
+			<input id="q" name="q" type="search" placeholder="zoeken naar..." required>
+			<button type="submit"><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"
+				viewBox="0 0 22 22" width="30px" height="24px">
+				<path
+				  d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z" />
+			  </svg></button>
+		  </form>
+		</section>
+	  
+		<!-- USP's -->
+		<section>
+		  <h2 class="visually-hidden">Onze USP’s</h2>
+		  <ul class="usp">
+			<li>Voor <strong>23.59 uur</strong> besteld, <strong>morgen</strong> in huis</li>
+			<li><strong>Gratis</strong> ruilen binnen 30 dagen</li>
+			<li>20 echte winkels voor advies en service</li>
+		  </ul>
+		</section>
+	  </header>
+	  
+
+	<main>
+		<section>
+			<h2 class="visually-hidden">Back to School deals</h2>
+			<ul>
+				<li>
+					<img src="images/coolbluefoto2.png" alt="Plaatje van de back to school deals">
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/iphone17.jpeg" alt="iPhone 17">
+					</a>
+				</li>
+			</ul>
+			<ul class="carrousel-indicator">
+				<li class="active"></li>
+				<li></li>
+			</ul>
+
+
+
+			<ul>
+				<li>
+					<article>
+						<p>aanbieding</p>
+						<p>AEG</p>
+						<h3>AEG Witgoed</h3> <!-- eigen heading -->
+						<p>Nu met korting</p>
+						<img src="images/Aegwitgoed.png" alt="AEG wasmachine">
+					</article>
+				</li>
+				<li>
+					<article>
+						<p>Nieuw</p>
+						<h3>JBL Grip</h3> <!-- eigen heading -->
+						<p>JBL</p>
+						<img src="images/2204921.png" alt="JBL Grip">
+					</article>
+				</li>
+				<li>
+					<article>
+						<p>Nieuw</p>
+						<h3>Oppo Reno 14 256GB</h3> <!-- eigen heading -->
+						<p>Nieuw bij Coolblue</p>
+						<img src="images/oppo_reno.webp" alt="Oppo Reno 14 256GB">
+					</article>
+				</li>
+			</ul>
+		</section>
+
+
+
+		<section>
+			<h2>Blader door onze categorieën</h2>
+			<ul>
+				<li>
+					<img src="images/computersentablets.png" alt="Computers en tablets">
+					<a href="/computers">
+						<h3>Computers & tablets</h3>
+					</a>
+
+				</li>
+
+				<li>
+					<img src="images/beeldengeluid.png" alt="Beeld en geluid">
+					<a href="/beeld">
+						<h3>Mobiele telefoons</h3>
+					</a>
+
+				</li>
+				<li>
+					<img src="images/telefonie.png" alt="telefonie">
+					<a href="/telefonie">
+						<h3>Telefonie</h3>
+					</a>
+
+				</li>
+				<li>
+					<img src="images/huishouden&wonen.png" alt="huishouden en wonen">
+					<a href="/#">
+						<h3>Huishouden & wonen</h3>
+					</a>
+				</li>
+
+			</ul>
+			<a href="/assortiment" class="assortiment-link">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="1.2em"
+					height="1.2em" aria-hidden="true">
+					<path fill-rule="evenodd"
+						d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445" />
+				</svg>
+				Bekijk het volledige assortiment
+			</a>
+		</section>
+
+		<section>
+			<h2>Ontdek de verschillende merken</h2>
+			<ul>
+				<li>
+					<img src="images/eufy.jpeg" alt="Eufy product">
+					<a href="/merken/eufy">
+						<h3>Bekijk de wereld van Eufy</h3>
+					</a>
+					<p>
+						Van videobellen tot robotstofzuigers: met Eufy heb je een slim, beveiligd huis.
+						Houd een oogje in het zeil en bedien je apparaten vanuit een app.
+					</p>
+					<ul>
+						<li><a href="/merken/eufy/beveiligingscameras">Eufy beveiligingscamera’s</a></li>
+						<li><a href="/merken/eufy/lampen">Eufy smart lampen</a></li>
+						<li><a href="/merken/eufy/robotmaaiers">Eufy robotmaaiers</a></li>
+						<li><a href="/merken/eufy/robotstofzuigers">Eufy robotstofzuigers</a></li>
+						<li><a href="/merken/eufy/deurbellen">Eufy deurbellen</a></li>
+					</ul>
+
+				</li>
+
+				<li>
+					<img src="images/bekijkdewereldvanapple.jpeg" alt="bekijk de wereld van apple">
+					<a href="#">
+						<h3>Bekijk de wereld van apple</h3>
+					</a>
+					<p>
+						Bij Apple weet je een ding zeker: alles werkt zoals het hoort. Dankzij het Apple ecosysteem
+						werken de producten onderling naadloos met elkaar samen.
+					</p>
+					<ul>
+						<li><a href="#">Macbook</a></li>
+						<li><a href="#">Iphone</a></li>
+						<li><a href="#">Apple watch</a></li>
+						<li><a href="/#">Ipad</a></li>
+						<li><a href="/#">Mac</a></li>
+					</ul>
+
+				</li>
+				<li>
+					<img src="images/bekijkdewereldvanwisberg.jpeg" alt="bekijk de wereld van wisberg">
+					<a href="#">
+						<h3>Bekijk de wereld van apple</h3>
+					</a>
+					<p>
+						Wisberg biedt energiezuinige producten die het dagelijks leven een stuk gemakkelijker maken. Of
+						je nu een wasmachine, droger, koelkast of vriezer zoekt: met Wisberg heb je altijd een slimme
+						oplossing in huis.
+					</p>
+					<ul>
+						<li><a href="#">Wisberg wasdrogers</a></li>
+						<li><a href="#">Wisberg koelkasten</a></li>
+						<li><a href="#">Wisberg vriezers</a></li>
+						<li><a href="/#">Wisberg wasmachines</a></li>
+					</ul>
+				</li>
+			</ul>
+			<a href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="1.6rem"
+					height="1.6rem" aria-hidden="true">
+					<path fill-rule="evenodd"
+						d="M17.5 10.01c0 .546-.224 1.068-.62 1.444l-7.97 7.58a1.995 1.995 0 0 1-2.75-2.89l6.453-6.137-6.454-6.152A1.995 1.995 0 1 1 8.912.968l7.97 7.597c.395.377.618.899.618 1.445">
+					</path>
+				</svg>
+				Bekijk alle merken
+			</a>
+		</section>
+
+
+		<section>
+			<h2>Bekijk nu onze Back to School-deals</h2>
+			<p>Meesterlijke kortingen op laptops, tablets en een heleboel accessoires.</p>
+			<img src="images/achtergrondaandachttrekkers.png" alt="Back to School achtergrond">
+
+			<!-- 1) CARROUSEL: alléén deze UL -->
+			<ul>
+				<li>
+					<article>
+						<img src="images/remarkablepro.png" alt="ReMarkable Paper Pro">
+						<a href="/product/remarkable-paper-pro">
+							<h3>ReMarkable Paper Pro Move</h3>
+						</a>
+						<p><svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#D3D3D3"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#D3D3D3"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#D3D3D3"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#D3D3D3"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#D3D3D3"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							0 reviews
+						</p>
+						<p>529,- </p>
+						<p>Maak overal gemakkelijk notities</p>
+					</article>
+				</li>
+				<li>
+					<article>
+						<img src="images/inventumOV607B.jpeg" alt="Inventum OV607B">
+						<a href="#">
+							<h3>Inventum OV607B</h3>
+						</a>
+						<p><svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#00b900"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#00b900"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#00b900"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#00b900"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#D3D3D3"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							94 reviews
+						</p>
+						<p>170,-</p>
+						<p>Deze mini-oven past perfect</p>
+					</article>
+				</li>
+				<li>
+					<article>
+						<img src="images/rayzor60.png" alt="Motorola Razr 60">
+						<a href="#">
+							<h3>Motorola Razr 60 256GB Swarovski 5G</h3>
+						</a>
+						<p><svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#00b900"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#00b900"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#00b900"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#00b900"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+								<path fill="#00b900"
+									d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+							</svg>
+							94 reviews
+						</p>
+						<p>170,-</p>
+						<p>Deze mini-oven past perfect</p>
+					</article>
+				</li>
+			</ul>
+
+			<ul>
+				<li>
+					<a href="/cadeaukaart">
+						<img src="images/verjaardagscadeau.png" alt="Cadeaukaart">
+					</a>
+				</li>
+				<li>
+
+					<a href="#">
+						<img src="images/gratiswassenendrogen.jpeg" alt="Gratis wassen en drogen">
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<h2>Word klant bij Coolblue Energie</h2>
+			<a href="#">
+				<img src="images/coolblueenergie.jpeg" alt="Energie promotie">
+			</a>
+
+
+			<!-- voordeelblok 1 -->
+			<a href="/energie/korting-witgoed">
+				<img src="images/bankfoto.jpeg" alt="Bankfoto">
+				<h3>Korting op energiezuinige producten</h3>
+				<p>Bespaar op je wasmachine of slimme stekkers en daarna op je energierekening.</p>
+			</a>
+
+			<!-- voordeelblok 2 -->
+			<a href="/energie/voordeel-2">
+				<img src="images/monteerfoto.jpeg" alt="monteerfoto">
+				<h3>Split airco's van Coolblue Energie</h3>
+				<p>Geniet van een koele temperatuur in huis met een split airco van Coolblue Energie.</p>
+			</a>
+		</section>
+
+		<section>
+			<h2>Best verkocht</h2>
+			<ul>
+				<li>
+					<article>
+						<a href="/product/airpods-pro-2">
+							<img src="images/airpodspro.png" alt="Apple AirPods Pro 2">
+							<p>Tot €10,- inruilwaarde</p>
+							<h3>Apple AirPods Pro 2</h3>
+							<p><svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+									viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+									viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+									viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+									viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								305 reviews
+							</p>
+							<p> 249,-</p>
+						</a>
+					</article>
+				</li>
+				<li>
+					<article>
+						<a href="#">
+							<img src="images/Kobolibracolourzwart.png" alt="Kobolibracolourzwart">
+							<p>Tot €10,- inruilwaarde</p>
+							<h3>Kobra libra Colour</h3>
+							<p><svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+									viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+									viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+									viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"
+									viewBox="0 0 1200 1200">
+									<path fill="#00b900"
+										d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0zm3.955 209.912l94.556 295.239l309.889 6.958l-251.588 181.055l89.136 296.924l-249.976-183.325l-254.81 176.587l97.119-294.434l-246.68-187.793l310.034 1.392l102.32-292.603z" />
+								</svg>
+								80 reviews
+							</p>
+							<p> 238,-</p>
+						</a>
+					</article>
+				</li>
+				<!-- meer li-items voor andere bestsellers -->
+			</ul>
+		</section>
+	</main>
+
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="/assortiment">Ons assortiment</a></li>
+				<li><a href="/bedrijfswebsite">Bedrijfswebsite</a></li>
+				<li><a href="/klantenservice">Klantenservice</a></li>
+				<li><a href="/zakelijk">Zakelijk</a></li>
+				<li><a href="/winkels">Onze winkels</a></li>
+				<li><a href="/over">Over Coolblue</a></li>
+				<li><a href="/werken-bij">Werken bij Coolblue</a></li>
+				<li><a href="/inloggen">Inloggen</a></li>
+			</ul>
+		</nav>
+
+		<!-- betaalmethoden -->
+		<ul>
+			<li><a href="#"><img src="images/ideallogo.png" alt="iDEAL"></a></li>
+			<li><a href="#"><img src="images/mastercardlogo.svg" alt="Mastercard"></a></li>
+			<li><a href="#"><svg viewBox="750 735 1910 615" width="5.6rem" aria-hidden="true" focusable="false">
+						<path fill="#1434CB"
+							d="M1461.26,739.84l-251.37,599.74h-164l-123.7-478.62c-7.51-29.48-14.04-40.28-36.88-52.7c-37.29-20.23-98.87-39.21-153.05-50.99l3.68-17.43h263.99c33.65,0,63.9,22.4,71.54,61.15l65.33,347.04l161.46-408.2H1461.26z">
+						</path>
+						<path fill="#1434CB" d="M1682.93,739.84l-128.29,599.74H1399.5l128.34-599.74H1682.93z"></path>
+						<path fill="#1434CB"
+							d="M2103.84,1143.77c0.66-158.29-218.88-167.01-217.37-237.72c0.47-21.52,20.96-44.4,65.81-50.24c22.23-2.91,83.48-5.13,152.95,26.84l27.25-127.18c-37.33-13.55-85.36-26.59-145.12-26.59c-153.35,0-261.27,81.52-262.18,198.25c-0.99,86.34,77.03,134.52,135.81,163.21c60.47,29.38,80.76,48.26,80.53,74.54c-0.43,40.23-48.23,57.99-92.9,58.69c-77.98,1.2-123.23-21.1-159.3-37.87l-28.12,131.39c36.25,16.63,103.16,31.14,172.53,31.87C1996.72,1348.96,2103.34,1268.45,2103.84,1143.77z">
+						</path>
+						<path fill="#1434CB"
+							d="M2508.78,1339.58h143.49l-125.25-599.74h-132.44c-29.78,0-54.9,17.34-66.02,44l-232.81,555.74h162.91L2291,1250h199.05L2508.78,1339.58z M2335.67,1127.08l81.66-225.18l47,225.18H2335.67z">
+						</path>
+					</svg></a></li>
+			<li><a href="#"><svg viewBox="0 0 165.521 106.965" width="4rem" aria-hidden="true" focusable="false">
+						<path
+							d="M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696c-.013.477-.019.953-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.018 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004a79.71 79.71 0 0 0 1.431-.02c1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.941 9.941 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.413 71.413 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z">
+						</path>
+						<path fill="#FFF"
+							d="M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.792.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.512-1.971.645-.882.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a75.086 75.086 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.647-1.985c-.155-.863-.198-1.788-.22-2.578a66.017 66.017 0 0 1-.02-1.355l-.002-1.327V14.474l.002-1.325c.003-.453.008-.905.02-1.357.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.622a6.385 6.385 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.647c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875">
+						</path>
+						<path
+							d="M45.186 35.64c1.417-1.772 2.38-4.152 2.126-6.585-2.075.104-4.607 1.37-6.073 3.143-1.316 1.52-2.48 4-2.177 6.33 2.33.202 4.656-1.165 6.124-2.887M47.285 38.983c-3.382-.202-6.258 1.919-7.873 1.919-1.616 0-4.09-1.818-6.764-1.769-3.482.051-6.713 2.02-8.48 5.15-3.634 6.264-.959 15.556 2.575 20.657 1.717 2.524 3.785 5.303 6.51 5.203 2.575-.101 3.584-1.668 6.714-1.668 3.128 0 4.037 1.668 6.763 1.617 2.827-.05 4.594-2.525 6.31-5.051 1.969-2.877 2.775-5.655 2.825-5.808-.05-.05-5.45-2.122-5.5-8.333-.051-5.201 4.24-7.675 4.441-7.828-2.423-3.584-6.209-3.988-7.52-4.09M76.734 31.944c7.35 0 12.47 5.067 12.47 12.444 0 7.404-5.225 12.497-12.654 12.497h-8.14v12.943h-5.88V31.944h14.204zM68.41 51.949h6.747c5.12 0 8.034-2.756 8.034-7.534 0-4.778-2.914-7.509-8.008-7.509h-6.773V51.95zM90.74 61.979c0-4.831 3.702-7.798 10.266-8.166l7.56-.446v-2.126c0-3.072-2.074-4.91-5.539-4.91-3.282 0-5.33 1.575-5.828 4.043h-5.356c.315-4.988 4.568-8.664 11.394-8.664 6.695 0 10.974 3.545 10.974 9.084v19.034h-5.435v-4.542h-.13c-1.602 3.072-5.094 5.015-8.717 5.015-5.408 0-9.189-3.36-9.189-8.322zm17.826-2.494v-2.18l-6.8.42c-3.386.237-5.303 1.733-5.303 4.096 0 2.415 1.996 3.99 5.041 3.99 3.964 0 7.062-2.73 7.062-6.326zM119.342 79.989v-4.595c.419.105 1.364.105 1.837.105 2.625 0 4.043-1.102 4.909-3.938 0-.052.5-1.68.5-1.706l-9.977-27.646h6.143l6.984 22.474h.104l6.985-22.474h5.985l-10.344 29.063c-2.362 6.695-5.093 8.848-10.816 8.848-.473 0-1.891-.053-2.31-.131z">
+						</path>
+					</svg></a></li>
+			<li><a href="#"><svg viewBox="0 0 363.2969 352.7318" width="3.2rem" aria-hidden="true" focusable="false">
+						<defs>
+							<style>
+								.cls-1 {
+									fill: #1e1e1e;
+								}
+
+								.cls-2 {
+									fill: #bdea18;
+								}
+
+								.cls-3 {
+									fill: #fc3f4d;
+								}
+
+								.cls-4 {
+									fill: #fff;
+								}
+							</style>
+						</defs>
+						<g id="Laag_2" data-name="Laag 2">
+							<g id="Layer_1" data-name="Layer 1">
+								<path class="cls-1"
+									d="M3.92,230.9359h9.521v7.7011h6.8608v7.8409H13.4414V260.62c0,5.46,1.68,6.58,5.3906,6.58a16.0023,16.0023,0,0,0,1.75-.0693v8.2607a19.7173,19.7173,0,0,1-4.13.35c-8.751,0-12.6011-4.9-12.6011-14.8418V246.4779H0V238.637H3.92Z">
+								</path>
+								<path class="cls-1"
+									d="M59.3633,254.1087V275.25H49.772V252.9886c0-4.06-2.8-6.5811-6.09-6.5811-4.0605,0-6.6508,2.9405-6.6508,6.86V275.25H27.37V224.6351h9.6612v18.2724a11.2842,11.2842,0,0,1,9.6611-5.1806C57.1929,237.7269,59.3633,246.3372,59.3633,254.1087Z">
+								</path>
+								<path class="cls-1"
+									d="M67.48,259.7786V238.637H77.14v22.2618c0,4.06,2.8008,6.581,6.0909,6.581,3.99,0,6.5107-2.94,6.5107-6.86V238.637h9.6611V275.25H89.9517v-4.27a11.55,11.55,0,0,1-9.8008,5.1807C69.72,276.1605,67.48,267.55,67.48,259.7786Z">
+								</path>
+								<path class="cls-1"
+									d="M112.49,224.2855a5.5307,5.5307,0,1,1-5.6006,5.53A5.4875,5.4875,0,0,1,112.49,224.2855ZM107.73,238.637h9.6611V275.25H107.73Z">
+								</path>
+								<path class="cls-1"
+									d="M123.6187,269.37l5.6709-5.041a10.44,10.44,0,0,0,8.4,3.99c2.7305,0,4.4805-1.19,4.4805-3.29,0-5.6006-17.2915-3.4306-17.2915-16.4521,0-6.79,5.8106-10.8506,13.3013-10.8506,6.9306,0,10.7812,3.6406,12.5312,6.5107l-6.3706,4.76a8.2778,8.2778,0,0,0-6.5805-3.5c-2.24,0-3.78,1.12-3.78,2.94,0,5.8106,17.3618,3.0108,17.3618,16.1016,0,7.1406-6.1606,11.6211-14.0718,11.6211C130.06,276.1605,125.5791,272.52,123.6187,269.37Z">
+								</path>
+								<path class="cls-1"
+									d="M182.7715,251.7982,175.981,275.25H165.2L154.2788,238.637H164.78l6.44,25.9727,7.001-25.9727h9.1011l6.9306,25.9727,6.5108-25.9727h10.5009L200.2734,275.25H189.4922Z">
+								</path>
+								<path class="cls-1"
+									d="M221.3389,224.2855a5.5307,5.5307,0,1,1-5.6006,5.53A5.4874,5.4874,0,0,1,221.3389,224.2855Zm-4.7608,14.3515h9.6612V275.25h-9.6612Z">
+								</path>
+								<path class="cls-1"
+									d="M266.8408,254.1087V275.25H257.18V252.9886c0-4.06-2.8008-6.5811-6.0908-6.5811-3.99,0-6.5108,2.9405-6.5108,6.86V275.25H234.917V238.637h9.4512v4.27a11.5506,11.5506,0,0,1,9.8007-5.1806C264.6006,237.7269,266.8408,246.3372,266.8408,254.1087Z">
+								</path>
+								<path class="cls-1"
+									d="M275.167,224.6351h9.6611v29.4033L296.59,238.637H307.44L294.56,255.2288,308.4209,275.25H297.08l-12.252-18.9013V275.25H275.167Z">
+								</path>
+								<path class="cls-1"
+									d="M329.4189,237.7269c11.3409,0,17.7813,7.56,17.7813,19.5322,0,.6992,0,1.3994-.0693,2.1H321.3682c.21,4.9,4.13,8.4014,9.52,8.4014A10.696,10.696,0,0,0,339.78,263.28l6.37,4.83c-1.4,2.5908-6.3008,8.0508-15.4014,8.0508-11.7617,0-19.2519-8.1211-19.2519-19.1114C311.4971,245.9876,318.9873,237.7269,329.4189,237.7269Zm7.9805,15.331a7.4769,7.4769,0,0,0-7.8408-7.4209c-4.55,0-7.49,3.2207-7.91,7.4209Z">
+								</path>
+								<path class="cls-1" d="M353.6357,224.6351h9.6612V275.25h-9.6612Z"></path>
+								<path class="cls-1"
+									d="M66.3525,313.4056l-9.0351,26.8457H51.6621L40.2866,306.4505h5.59l8.84,27.82s.0649-.13,9.1-27.82h5.07c8.97,27.69,9.0352,27.82,9.0352,27.82l8.9052-27.82h5.59l-11.44,33.8008H75.3228Z">
+								</path>
+								<path class="cls-1"
+									d="M109.0566,318.7357c4.2906,0,7.5406,1.625,8.9053,3.0547v-4.16c0-4.7451-3.185-7.4746-8.19-7.4746a19.3691,19.3691,0,0,0-9.9453,2.9248l-2.08-3.77a23.8249,23.8249,0,0,1,12.48-3.7051c9.23,0,12.87,5.1358,12.87,12.3506v22.2959h-4.42l-.5849-2.86c-1.7554,2.0157-4.6152,3.7051-9.1655,3.7051-7.41,0-12.8706-4.68-12.8706-11.2451C96.0562,323.4154,101.4517,318.7357,109.0566,318.7357Zm.7154,18.07c4.94,0,8.3852-2.9248,8.3852-7.02,0-4.2246-3.38-6.9551-8.4507-6.9551-5.1347,0-8.45,2.99-8.45,6.9551C101.2563,333.6859,104.5718,336.806,109.772,336.806Z">
+								</path>
+								<path class="cls-1"
+									d="M143.1812,318.7357c4.29,0,7.5405,1.625,8.9052,3.0547v-4.16c0-4.7451-3.185-7.4746-8.19-7.4746a19.3729,19.3729,0,0,0-9.9458,2.9248l-2.08-3.77a23.83,23.83,0,0,1,12.4805-3.7051c9.23,0,12.8706,5.1358,12.8706,12.3506v22.2959h-4.42l-.585-2.86c-1.7554,2.0157-4.6152,3.7051-9.1655,3.7051-7.41,0-12.8706-4.68-12.8706-11.2451C130.1807,323.4154,135.5762,318.7357,143.1812,318.7357Zm.7153,18.07c4.94,0,8.3852-2.9248,8.3852-7.02,0-4.2246-3.38-6.9551-8.45-6.9551-5.1352,0-8.4506,2.99-8.4506,6.9551C135.3809,333.6859,138.6963,336.806,143.8965,336.806Z">
+								</path>
+								<path class="cls-1"
+									d="M181.6611,310.7406c-7.7353,0-10.0107,6.11-10.0107,13.3251v16.1856h-5.1353V306.4505h5.07v5.6543c1.17-3.38,4.9405-6.5,10.0757-6.5Z">
+								</path>
+								<path class="cls-1"
+									d="M188.3555,293.2542H193.49v18.6563a13.9845,13.9845,0,0,1,11.961-6.3057c9.5556,0,16.12,7.41,16.12,17.8106,0,10.3359-6.89,17.6806-16.51,17.6806a13.9856,13.9856,0,0,1-11.7656-6.1748v5.33h-4.94Zm16.3808,43.2266c6.5,0,11.57-5.1348,11.57-13,0-7.7354-4.81-13.1953-11.44-13.1953-6.37,0-11.57,4.81-11.57,13.1953C193.2959,330.5657,197.7158,336.4808,204.7363,336.4808Z">
+								</path>
+								<path class="cls-1"
+									d="M244.5156,305.6048c10.2061,0,17.6162,7.6055,17.6162,17.7461a17.2746,17.2746,0,0,1-17.6806,17.7451c-10.1407,0-17.6162-7.4746-17.6162-17.7451A17.2748,17.2748,0,0,1,244.5156,305.6048Zm-.0644,30.8115c7.28,0,12.48-5.5254,12.48-13.0654,0-7.4756-5.2-13.0654-12.48-13.0654s-12.3506,5.6552-12.3506,13.0654C232.1006,330.9564,237.2354,336.4163,244.4512,336.4163Z">
+								</path>
+								<path class="cls-1"
+									d="M284.8154,310.7406c-7.7353,0-10.0107,6.11-10.0107,13.3251v16.1856H269.67V306.4505h5.07v5.6543c1.17-3.38,4.94-6.5,10.0752-6.5Z">
+								</path>
+								<path class="cls-1"
+									d="M295.1494,345.3216a21.188,21.188,0,0,0,10.2061,2.7949c6.4345,0,11.8955-2.665,11.8955-10.205v-2.99A13.6146,13.6146,0,0,1,305.55,341.096c-9.6846,0-16.3154-7.3447-16.3154-17.6806,0-10.4,6.6953-17.8106,16.251-17.8106a14.0384,14.0384,0,0,1,11.96,6.3057v-5.46h4.94v29.1211c0,12.8047-7.2148,17.16-16.9658,17.16a24.7072,24.7072,0,0,1-12.09-3.38Zm10.7256-35.0361c-6.5654,0-11.44,5.3945-11.44,13.13,0,7.8652,5.07,13.0009,11.57,13.0009,6.9551,0,11.44-5.7207,11.44-13.0009C317.4453,315.2249,312.3105,310.2855,305.875,310.2855Z">
+								</path>
+								<path class="cls-1"
+									d="M181.6484,0,80.5982,58.3413V175.3044h202.1V58.3413Zm90.2591,164.5133H187.044V119.7977l84.8635-48.9959Zm-95.6546,0H91.3894V70.8018l84.8635,48.9959Zm5.3955-54.0609L96.785,61.4564,181.6484,12.46l84.8635,48.996Z">
+								</path>
+								<polygon class="cls-2"
+									points="271.907 70.802 187.044 119.798 187.044 164.513 271.907 164.513 271.907 70.802">
+								</polygon>
+								<polygon class="cls-3"
+									points="91.389 164.513 176.253 164.513 176.253 119.798 91.389 70.802 91.389 164.513">
+								</polygon>
+								<polygon class="cls-4"
+									points="96.785 61.456 181.648 110.452 266.512 61.456 181.648 12.46 96.785 61.456">
+								</polygon>
+							</g>
+						</g>
+					</svg></a></li>
+			<li><a href="#"><svg viewBox="0 0 363.3 352.7" width="3.2rem" aria-hidden="true" focusable="false">
+						<path fill="#1e1e1e"
+							d="M4 231h9.4v7.6h6.9v7.9h-6.9v14.1c0 5.5 1.7 6.6 5.4 6.6a16 16 0 0 0 1.8 0v8.2a19.7 19.7 0 0 1-4.1.3c-8.8 0-12.6-4.9-12.6-14.8v-14.4H0v-7.9h4ZM59.4 254.1v21.2h-9.6V253c0-4-2.8-6.6-6.1-6.6-4 0-6.7 3-6.7 6.9v22h-9.6v-50.7H37V243a11.3 11.3 0 0 1 9.7-5.2c10.5 0 12.7 8.6 12.7 16.4ZM67.5 259.8v-21.2H77V261c0 4 2.8 6.6 6.1 6.6 4 0 6.5-3 6.5-6.9v-22h9.7v36.7H90V271a11.5 11.5 0 0 1-9.8 5.2c-10.5 0-12.7-8.6-12.7-16.4ZM112.5 224.3a5.5 5.5 0 1 1-5.6 5.5 5.5 5.5 0 0 1 5.6-5.5Zm-4.8 14.3h9.7v36.7h-9.7ZM123.6 269.4l5.7-5a10.4 10.4 0 0 0 8.4 4c2.7 0 4.5-1.3 4.5-3.4 0-5.6-17.3-3.4-17.3-16.4 0-6.8 5.8-10.9 13.3-10.9a14 14 0 0 1 12.5 6.5l-6.4 4.8a8.3 8.3 0 0 0-6.5-3.5c-2.3 0-3.8 1.1-3.8 3 0 5.7 17.3 3 17.3 16 0 7.2-6.1 11.7-14 11.7-7.2 0-11.7-3.7-13.7-6.8ZM182.8 251.8l-6.8 23.5h-10.8l-11-36.7h10.6l6.4 26 7-26h9.1l7 26 6.5-26h10.5l-11 36.7h-10.8ZM221.3 224.3a5.5 5.5 0 1 1-5.6 5.5 5.5 5.5 0 0 1 5.6-5.5Zm-4.7 14.3h9.6v36.7h-9.6ZM266.8 254.1v21.2h-9.6V253c0-4-2.8-6.6-6.1-6.6-4 0-6.5 3-6.5 6.9v22h-9.7v-36.7h9.5v4.3a11.6 11.6 0 0 1 9.8-5.2c10.4 0 12.6 8.6 12.6 16.4ZM275.2 224.6h9.6V254l11.8-15.4h10.8l-12.8 16.6 13.8 20h-11.3l-12.3-18.9v19h-9.6ZM329.4 237.7c11.4 0 17.8 7.6 17.8 19.6a21 21 0 0 1 0 2h-25.8c.2 5 4.1 8.5 9.5 8.5a10.7 10.7 0 0 0 8.9-4.5l6.3 4.8c-1.4 2.6-6.3 8-15.4 8a18.3 18.3 0 0 1-19.2-19c0-11.1 7.5-19.4 18-19.4Zm8 15.4a7.5 7.5 0 0 0-7.8-7.5c-4.6 0-7.5 3.3-8 7.5ZM353.6 224.6h9.7v50.7h-9.7ZM80.8 336.6l19.4-25.7H81.4v-4.4h24.9v3.7L87 335.9h19.6v4.4H80.8ZM125 318.7c4.3 0 7.5 1.7 8.9 3v-4c0-4.8-3.2-7.5-8.2-7.5a19.4 19.4 0 0 0-10 2.9l-2-3.8a23.8 23.8 0 0 1 12.5-3.7c9.2 0 12.8 5.1 12.8 12.4v22.3h-4.4l-.6-3c-1.7 2.1-4.6 3.8-9.1 3.8-7.5 0-13-4.7-13-11.2 0-6.5 5.5-11.2 13-11.2Zm.7 18.1c5 0 8.4-3 8.4-7 0-4.2-3.4-7-8.5-7s-8.4 3-8.4 7c0 3.9 3.3 7 8.5 7ZM148.3 293.3h5.2v27.6l13.7-14.4h6.5l-14.5 15.1 15.4 18.7h-6.7l-14.4-18v18h-5.2ZM192.6 305.6c10 0 16 7.2 16 17.3v1.6h-27.1c0 7.5 5.1 12 12.1 12a12.4 12.4 0 0 0 10.6-5.2l3.3 2.5a15.7 15.7 0 0 1-14 7.3c-10.2 0-17.3-7.2-17.3-17.6 0-10.8 7.4-17.9 16.4-17.9Zm10.8 15c-.4-7-5.2-10.6-10.8-10.6a11 11 0 0 0-10.9 10.6ZM216.1 293.3h5.1v47h-5ZM233.6 294.2a3.5 3.5 0 1 1-3.5 3.5 3.5 3.5 0 0 1 3.5-3.5Zm-2.5 12.3h5.1v33.8h-5.1ZM246 306.5h5.1v34.9c0 8.5-4.7 11.3-10.5 11.3a14.4 14.4 0 0 1-1.7-.2v-4.4h1.4c3.8 0 5.7-2 5.7-6.9Zm2.5-12.3a3.5 3.5 0 1 1-3.5 3.5 3.5 3.5 0 0 1 3.5-3.5ZM261 293.3h5v27.6l13.9-14.4h6.5l-14.6 15.1 15.4 18.7h-6.6l-14.5-18v18H261ZM181.6 0l-101 58.3v117h202.1v-117Zm5.4 164.5v-44.7l37-21.4v66.1Zm85 0h-37.1V92.2l37-21.4Zm-180.6 0V70.8l37 21.4v72.3Zm84.9 0h-37v-66l37 21.3ZM144.6 33.8l37-21.3 37 21.3-37 21.4Zm74 55.3-37 21.4-37-21.4 37-21.4Zm-84.8-49 37 21.4-37 21.3-37-21.3Zm95.7 42.7-37-21.3 37-21.4 37 21.4Z">
+						</path>
+						<path fill="#bdea18"
+							d="M224.1 98.4 187 119.8v44.7h37.1V98.4zM271.9 70.8l-37 21.4v72.3h37V70.8z"></path>
+						<path fill="#fc3f4d"
+							d="M91.4 164.5h37V92.2l-37-21.4v93.7zM139.2 164.5h37.1v-44.7l-37.1-21.4v66.1z"></path>
+						<path fill="#ffffff"
+							d="m144.6 33.8 37 21.4 37.1-21.4-37.1-21.3-37 21.3zM133.8 40.1l-37 21.4 37 21.3 37.1-21.3-37.1-21.4zM229.5 82.8l37-21.3-37-21.4-37.1 21.4 37.1 21.3zM144.6 89.1l37 21.4 37.1-21.4-37.1-21.4-37 21.4z">
+						</path>
+					</svg></a></li>
+			<li><a href="#"><svg viewBox="0 0 75 74.2" width="2.8rem" aria-hidden="true" focusable="false">
+						<path fill="none" d="M-37.5-37.8h150v150h-150z"></path>
+						<path fill="#a6acb2"
+							d="M16.4.1c9 0 23.5 5.7 33.1 11C60.1 17 75 28.9 75 37.1c0 8.7-15.3 20.3-25.5 26-9.3 5.1-23.5 11.1-32.8 11.1-2.5 0-4.5-.4-6-1.2C3.4 68.9 0 51.5 0 37.1c0-7.3.9-15 2.6-21.4 2-7.6 4.8-12.6 8.1-14.5C12.1.5 14 .1 16.4.1">
+						</path>
+						<radialGradient id="POSTNLID_1_" cx="304.728" cy="1214.748" r="49.143"
+							gradientTransform="translate(-283.6 -1185.99)" gradientUnits="userSpaceOnUse">
+							<stop offset="0" stop-color="#ffc429"></stop>
+							<stop offset="1" stop-color="#f26f23"></stop>
+						</radialGradient>
+						<path fill="url(#POSTNLID_1_)"
+							d="M72.5 37.3c0-6.2-11.7-17.1-24.2-24C33.8 5.4 17.4.8 12 3.7 5.9 7.1 2.5 24.1 2.5 37.3c0 13.3 3.2 30.1 9.5 33.6 5.8 3.2 21.5-1.5 36.2-9.7C61 54.3 72.5 43.9 72.5 37.3">
+						</path>
+						<path fill="#FFF"
+							d="M56.1 43.6l-.1-6.3c0-1.4-.5-2-1.6-2-.4 0-.9.1-1.3.4-.5.3-.8.5-1 .6l-.1.1v7.1s0 .1-.1.1h-2.8s-.1 0-.1-.1v-10c0-.2.1-.3.3-.3h2.5s.1 0 .1.1v.8s0 .1.1.1h.1l.1-.1c.3-.2.8-.5 1.1-.6.7-.3 1.4-.4 2-.4 2.3 0 3.5 1.3 3.5 3.8v6.7s0 .1-.1.1l-2.6-.1M61.3 43.6c-.1 0-.1 0 0 0l-.1-15.4c0-.1 0-.1.1-.1.2 0 1.7 1 2.2 1.5.4.4.6 1 .6 1.5v12.3s0 .1-.1.1h-2.7">
+						</path>
+						<path fill="#383792"
+							d="M30.6 38.4c0 3.7-2.4 5.4-5.4 5.4-3 0-5.4-1.7-5.4-5.4s2.4-5.4 5.4-5.4c3 0 5.4 1.7 5.4 5.4m-3 0c0-2-1-2.8-2.3-2.8-1.3 0-2.3.9-2.3 2.8 0 1.8 1 2.8 2.3 2.8 1.3.1 2.3-.9 2.3-2.8zM44.7 30.4c0-.1 0-.1-.1-.1-.2 0-1.8 1-2.2 1.5-.4.4-.6 1-.6 1.5V40c0 2.9 1.7 3.8 3.5 3.8 1 0 1.7-.1 2.1-.4.1 0 .2-.1.2-.3v-1.9c0-.1 0-.1-.1-.1s-.8.3-1.2.3c-.9 0-1.5-.4-1.5-1.9v-3.8c0-.1 0-.1.1-.1h2.5c.1 0 .1 0 .1-.1v-2c0-.2-.1-.3-.3-.3h-2.3c-.1 0-.1 0-.1-.1l-.1-2.7M8.6 33.6c0-.2.2-.3.3-.3h3.9c3.9 0 5.9 2.3 5.9 5.3s-2.2 5.1-5.9 5.1h-1.2c-.1 0-.1 0-.1.1v4.9c0 .1 0 .1-.1.1-.2 0-1.8-1-2.2-1.5-.4-.4-.6-1-.6-1.5V33.6m7.2 4.8c0-1.3-.8-2.5-3-2.5h-1.2c-.1 0-.1 0-.1.1v4.8c0 .1 0 .1.1.1h1.2c2.6 0 3-1.8 3-2.5zM39 38c-.6-.4-1.4-.6-2.1-.7-.1 0-.6-.1-.7-.2-.9-.2-1.6-.4-1.6-.9s.5-.8 1.2-.8c.9 0 2.2.2 3.6.7.1 0 .2 0 .2-.1v-2c0-.1-.1-.3-.2-.3-.5-.2-2-.6-3.2-.6-1.4 0-2.5.3-3.3.9-.8.6-1.2 1.4-1.2 2.4 0 2.3 1.9 2.7 3.7 3.1.3.1.2.1.3.1.8.2 1.7.4 1.7 1 0 .2-.1.4-.2.5-.2.2-.6.3-1.2.3-1.1 0-3.3-.5-3.9-.7-.1 0-.1.1-.1.1v2c0 .1.1.3.2.3 0 0 1.9.6 3.6.6 3.1 0 4.7-1.2 4.7-3.4-.3-1-.7-1.8-1.5-2.3">
+						</path>
+						<path fill="#FFF"
+							d="M20.7 30.6c-.2 0-.4-.1-.4-.4V29c0-.3.2-.5.5-.5h8.9c.3 0 .5.2.5.5v1.1c0 .3-.1.4-.4.4h-9.1m8-3.1c-.1 0-.2 0-.2-.1v-.2c.3-.9 1.3-3.7 1.3-3.7.1-.2 0-.4-.2-.5l-.5-.2H29c-.1 0-.2 0-.2.1-.2.5-.3.8-.5 1.3 0 .1-.1.1-.2.1h-1c-.1 0-.1 0-.2-.1v-.2c.3-.9.5-1.6.9-2.4.1-.1.2-.4.6-.4h.2c.3.1.7.2 1.1.3.3.1.6.2 1 .3 1 .4 1 1.1.8 1.8-.1.4-.7 2.1-1.1 3.1-.1.2-.1.4-.2.5 0 .1-.1.2-.3.2h-1.2zm-4.1 0c-.2 0-.2-.2-.2-.3 0-.1-.1-5.3-.1-6 0-.1 0-.2.1-.2 0 0 .1-.1.2-.1H26c.1 0 .1 0 .2.1s.1.2.1.2c0 .7-.1 5.9-.1 6 0 0 0 .3-.2.3h-1.4zm-4.1 0c-.2 0-.2-.1-.3-.2 0-.1-.1-.3-.2-.5-.4-1-.9-2.6-1.1-3.1-.2-.7-.2-1.5.8-1.8.3-.1.7-.2 1-.3.4-.1.8-.2 1.1-.3h.2c.3 0 .5.2.6.4.4.8.6 1.5.9 2.4v.2s-.1.1-.2.1h-1c-.1 0-.2 0-.2-.1-.2-.5-.3-.9-.5-1.3 0 0-.1-.1-.2-.1h-.1l-.5.2c-.2.1-.3.3-.2.5 0 0 1 2.8 1.3 3.7v.2s-.1.1-.2.1c0-.1-1.2-.1-1.2-.1zm4.7-7.6c-.1 0-.1 0-.2-.1-.4-.3-.8-.7-1.1-1.1 0 0-.1-.1 0-.3.3-.5.8-.8 1.2-1.2h.2c.4.3.8.7 1.2 1.2.1.1.1.2 0 .3-.3.4-.7.8-1.1 1.1-.1.1-.1.1-.2.1z">
+						</path>
+					</svg></a></li>
+			<li><a href="#"><svg viewBox="0 0 99 99" width="2.8rem" aria-hidden="true" focusable="false">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g fill-rule="nonzero">
+								<polygon fill="#FFF"
+									points="32.4778481 32.0810127 66.9607595 32.0810127 66.9607595 62.6164557 32.4778481 62.6164557">
+								</polygon>
+								<path
+									d="M46.1164557,98.9373418 C35.464557,97.9765823 26.8803797,94.6556962 18.7765823,88.3689873 C16.7506329,86.8025316 12.4689873,82.5417722 10.7772152,80.4113924 C4.99177215,73.143038 1.39936709,64.5379747 0.271518987,55.2436709 C-0.0835443038,52.3196203 -0.0835443038,46.5341772 0.271518987,43.735443 C1.67088608,32.4778481 6.47468354,22.556962 14.3487342,14.6411392 C16.9803797,11.9886076 18.8183544,10.443038 21.6170886,8.54240506 C28.4677215,3.88481013 35.7151899,1.21139241 44.2575949,0.187974684 C46.3253165,-0.0626582278 53.2803797,-0.0626582278 55.2436709,0.187974684 C67.378481,1.71265823 78.4272152,7.41455696 86.2803797,16.228481 C93.2563291,24.0398734 97.2246835,32.7493671 98.6867089,43.3594937 C99.0208861,45.7822785 99.0626582,52.5493671 98.7702532,54.9512658 C97.7677215,63.0550633 95.2196203,70.135443 90.9379747,76.6518987 C82.8550633,88.9329114 70.1772152,96.8278481 55.5360759,98.6867089 C53.7607595,98.8955696 47.5993671,99.0835443 46.1164557,98.9373418 L46.1164557,98.9373418 Z M54.993038,61.5721519 C55.0348101,61.4468354 55.0765823,57.3740506 55.0765823,52.528481 L55.0765823,43.714557 L60.4860759,43.6727848 L65.9164557,43.6310127 L65.9582278,38.3677215 L66,33.1044304 L49.6670886,33.1462025 L33.3341772,33.1879747 L33.2924051,38.2841772 C33.2506329,42.4196203 33.2924051,43.4221519 33.4594937,43.5474684 C33.6056962,43.6727848 35.3392405,43.735443 39.0360759,43.7563291 L44.4037975,43.7981013 L44.4455696,52.6120253 C44.4664557,57.4575949 44.5082278,61.5094937 44.55,61.6139241 C44.6126582,61.7601266 45.7822785,61.8018987 49.771519,61.8018987 C54.3246835,61.8227848 54.9094937,61.7810127 54.993038,61.5721519 L54.993038,61.5721519 Z"
+									fill="#C4D201"></path>
+								<path
+									d="M34.0234177,72.0987342 C32.7911392,71.7018987 31.621519,70.5740506 30.8905063,69.0702532 C30.6189873,68.5063291 28.6556962,62.4075949 26.5253165,55.5360759 C24.3949367,48.664557 22.4316456,42.3987342 22.1810127,41.6050633 C21.8050633,40.4563291 21.721519,39.9550633 21.721519,38.9107595 C21.721519,37.6158228 22.0765823,36.2582278 22.6196203,35.3392405 C22.7658228,35.1094937 28.9063291,27.0474684 36.2582278,17.4607595 L49.6462025,0 L52.1943038,0.0835443038 C57.3531646,0.271518987 62.5955696,1.37848101 67.7335443,3.42531646 C79.1164557,7.93670886 88.3063291,16.3746835 93.8411392,27.4234177 C94.8436709,29.4493671 96.0550633,32.3525316 96.0550633,32.7702532 C96.0550633,33.0626582 69.9265823,68.485443 68.6107595,69.9683544 C67.5873418,71.1170886 66.7936709,71.6810127 65.5822785,72.0987342 C64.6841772,72.4120253 64.4335443,72.4120253 49.8132911,72.3911392 C35.3392405,72.4120253 34.9632911,72.4120253 34.0234177,72.0987342 L34.0234177,72.0987342 Z M54.8468354,61.864557 C55.0556962,61.7810127 55.0765823,60.8411392 55.0765823,52.8208861 C55.0765823,47.8917722 55.0974684,43.8607595 55.1183544,43.8398734 C55.1392405,43.8189873 57.6037975,43.7772152 60.6113924,43.735443 L66.0626582,43.6518987 L66.0626582,33.0417722 L33.3341772,33.0417722 L33.2924051,38.3886076 L33.2506329,43.735443 L38.7436709,43.7772152 L44.2367089,43.8189873 L44.278481,52.7164557 C44.3202532,60.8620253 44.3411392,61.6348101 44.5708861,61.8018987 C44.7588608,61.9481013 46.0329114,61.9898734 49.7088608,61.9898734 C52.4240506,61.9689873 54.721519,61.9272152 54.8468354,61.864557 L54.8468354,61.864557 Z"
+									fill="#050605"></path>
+							</g>
+						</g>
+					</svg></a></li>
+
+			<!-- meer betaalopties hier -->
+		</ul>
+
+		<!-- onderliggende links -->
+		<ul>
+			<li><a href="/voorwaarden">Algemene voorwaarden</a></li>
+			<li><a href="/privacy">Privacy</a></li>
+			<li><a href="/cookies">Cookies</a></li>
+			<li><a href="/en">English</a></li>
+		</ul>
+
+		<p>© 1999 - 2025 - Coolblue B.V.</p>
+	</footer>
+
+
+	<script defer src="scripts/script.js"></script>
+
+</body>
+
+</html>
